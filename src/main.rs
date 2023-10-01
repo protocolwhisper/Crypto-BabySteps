@@ -8,6 +8,9 @@ use k256::elliptic_curve::group::Group;
 use k256::elliptic_curve::sec1::FromEncodedPoint;
 use k256::elliptic_curve::sec1::ToEncodedPoint;
 
+// Polynomial
+
+mod week3;
 fn main() {
     // Use the generator (G) point of the secp256k1 curve.
     let g = AffinePoint::generator();
